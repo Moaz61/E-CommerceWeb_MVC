@@ -5,7 +5,11 @@ VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommerceWeb", "E-CommerceWeb\E-CommerceWeb.csproj", "{C1554C33-915A-4D81-B837-47117A24B24D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkyWebRazor_Temp", "BulkyWebRazor_Temp\BulkyWebRazor_Temp.csproj", "{20EC85A3-0662-41F9-8A31-BC3E4C746ED0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.DataAccess", "Bulky.DataAccess\Bulky.DataAccess.csproj", "{FC9B95FB-FFED-4681-ACF7-455273064462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Models", "Bulky.Models\Bulky.Models.csproj", "{AD138F9B-B338-4A5D-A3B0-B963939CE277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Utility", "Bulky.Utility\Bulky.Utility.csproj", "{F769A608-FCAF-4AF6-8B69-C5F49AD1B6F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{C1554C33-915A-4D81-B837-47117A24B24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1554C33-915A-4D81-B837-47117A24B24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1554C33-915A-4D81-B837-47117A24B24D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20EC85A3-0662-41F9-8A31-BC3E4C746ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20EC85A3-0662-41F9-8A31-BC3E4C746ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20EC85A3-0662-41F9-8A31-BC3E4C746ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20EC85A3-0662-41F9-8A31-BC3E4C746ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9B95FB-FFED-4681-ACF7-455273064462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9B95FB-FFED-4681-ACF7-455273064462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9B95FB-FFED-4681-ACF7-455273064462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9B95FB-FFED-4681-ACF7-455273064462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD138F9B-B338-4A5D-A3B0-B963939CE277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD138F9B-B338-4A5D-A3B0-B963939CE277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD138F9B-B338-4A5D-A3B0-B963939CE277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD138F9B-B338-4A5D-A3B0-B963939CE277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F769A608-FCAF-4AF6-8B69-C5F49AD1B6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F769A608-FCAF-4AF6-8B69-C5F49AD1B6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F769A608-FCAF-4AF6-8B69-C5F49AD1B6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F769A608-FCAF-4AF6-8B69-C5F49AD1B6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
