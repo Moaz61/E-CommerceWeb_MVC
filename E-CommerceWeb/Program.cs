@@ -1,4 +1,4 @@
-using E_CommerceWeb.Data;
+using Bulky.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_CommerceWeb

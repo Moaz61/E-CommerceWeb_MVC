@@ -1,5 +1,5 @@
-﻿using E_CommerceWeb.Data;
-using E_CommerceWeb.Models;
+﻿using Bulky.DataAccess.Data;
+using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_CommerceWeb.Controllers
